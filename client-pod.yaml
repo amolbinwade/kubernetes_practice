@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: spidypics-search-pod
+  labels:
+    component: spidypics-search
+spec:
+  containers:
+    - name: spidypics-search
+      image: amolbinwade/am01-docker-repo:search-latest
+      ports:
+        - containerPort: 8080
