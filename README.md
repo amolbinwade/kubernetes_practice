@@ -14,7 +14,6 @@ This repositiory contains the study notes, practice code and commands that I gat
   * [ReplicaSet](#replicaSet)
 - [ ] [Commands](#commands)
 
-### Kubernetes Components
 ### <a name='k8sComponents'>Kubernetes Components</a>
 #### <a name='nodeNCluster'>Node and Cluster</a>
 - Node is a physical or virtual machine where Kubernetes is installed. It can be worker node or master node.
