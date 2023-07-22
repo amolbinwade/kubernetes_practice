@@ -1,21 +1,21 @@
-# kubernetes_practice
+ # kubernetes_practice
 
 ### About this Repository
 This repositiory contains the study notes, practice code and commands that I gathered while learning and practicing Kubernetes.
 <br><br>
 
-## Index
-+ Kubernetes components
+## <a name='toc'>Index</a>
+- [ ] [Kubernetes components](#k8sComponents)
   * Node and Cluster
   * Control plane components
   * Node components
-+ Kubernetes objects
+- [ ] Kubernetes objects
   * POD
   * Replication controller
-+ Commands
+- [ ] Commands
 
 ### Kubernetes Components
-
+### <a name='k8sComponents'>Kubernetes Components</a>
 #### Node and Cluster
 - Node is a physical or virtual machine where Kubernetes is installed. It can be worker node or master node.
 - Kubernetes cluster is set of nodes
