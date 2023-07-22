@@ -5,21 +5,21 @@ This repositiory contains the study notes, practice code and commands that I gat
 <br><br>
 
 ## <a name='toc'>Index</a>
-- [ ] [Kubernetes components](#k8sComponents)
-  * [Node and Cluster](#nodeNCluster)
-  * [Control plane components](#controlPlane)
-  * [Node components](#nodeComponents)
-- [ ] [Kubernetes objects](#k8sObjects)
-  * [Pod](#pod)
-  * [ReplicaSet](#replicaSet)
-- [ ] [Commands](#commands)
+- [ ] [A. Kubernetes components](#k8sComponents)
+  * [A.1 Node and Cluster](#nodeNCluster)
+  * [A.2 Control plane components](#controlPlane)
+  * [A.3 Node components](#nodeComponents)
+- [ ] [B. Kubernetes objects](#k8sObjects)
+  * [B.1 Pod](#pod)
+  * [B.2 ReplicaSet](#replicaSet)
+- [ ] [C. Commands](#commands)
 
-### <a name='k8sComponents'>Kubernetes Components</a>
-#### <a name='nodeNCluster'>Node and Cluster</a>
+### <a name='k8sComponents'>A. Kubernetes Components</a>
+#### <a name='nodeNCluster'>A.1 Node and Cluster</a>
 - Node is a physical or virtual machine where Kubernetes is installed. It can be worker node or master node.
 - Kubernetes cluster is set of nodes
 
-#### <a name='controlPlane'>Control plane components</a>
+#### <a name='controlPlane'>A.2 Control plane components</a>
 1. Kube-apiserver<br>
     This is interface via which interaction with K8S can be done. This is kind of frontend for K8S. It can scale horizontally.
    - HTTP API
@@ -39,7 +39,7 @@ This repositiory contains the study notes, practice code and commands that I gat
    + Embeds cloud-specific logic
    + This lets you link your cluster into your cloud provider's API and separate out the components that interact with that cloud platform from components that only interact with K8S cluster.
 
-#### <a name='nodeComponents'>Node components</a>
+#### <a name='nodeComponents'>A.3 Node components</a>
 1. Kubelet
    - K8S agent that runs on each node
    - makes sure container are running in PODs
@@ -55,13 +55,13 @@ This repositiory contains the study notes, practice code and commands that I gat
        * imagespec : spec on how image should be build
        * runtimespec : spec on how container to be build
 
-### <a name='k8sObjects'>Kubernetes Objects</a>
+### <a name='k8sObjects'>B. Kubernetes Objects</a>
 
-#### <a name='pod'>Pod</a>
+#### <a name='pod'>B.1 Pod</a>
 
-#### <a name='replicaSet'> ReplicaSet </a>
+#### <a name='replicaSet'>B.2 ReplicaSet </a>
 
-### Commands
+### <a name='commands'>C. Commands</a>
 #### 1. Getting list of existing pods. <br><br></b>
 > kubectl get pods
 
