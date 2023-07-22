@@ -6,21 +6,21 @@ This repositiory contains the study notes, practice code and commands that I gat
 
 ## <a name='toc'>Index</a>
 - [ ] [Kubernetes components](#k8sComponents)
-  * Node and Cluster
-  * Control plane components
-  * Node components
-- [ ] Kubernetes objects
-  * POD
-  * Replication controller
-- [ ] Commands
+  * [Node and Cluster](#nodeNCluster)
+  * [Control plane components](#controlPlane)
+  * [Node components](#nodeComponents)
+- [ ] [Kubernetes objects](#k8sObjects)
+  * [Pod](#pod)
+  * [ReplicaSet](#replicaSet)
+- [ ] [Commands](#commands)
 
 ### Kubernetes Components
 ### <a name='k8sComponents'>Kubernetes Components</a>
-#### Node and Cluster
+#### <a name='nodeNCluster'>Node and Cluster</a>
 - Node is a physical or virtual machine where Kubernetes is installed. It can be worker node or master node.
 - Kubernetes cluster is set of nodes
 
-#### Control plane components
+#### <a name='controlPlane'>Control plane components</a>
 1. Kube-apiserver<br>
     This is interface via which interaction with K8S can be done. This is kind of frontend for K8S. It can scale horizontally.
    - HTTP API
@@ -40,7 +40,7 @@ This repositiory contains the study notes, practice code and commands that I gat
    + Embeds cloud-specific logic
    + This lets you link your cluster into your cloud provider's API and separate out the components that interact with that cloud platform from components that only interact with K8S cluster.
 
-#### Node components
+#### <a name='nodeComponents'>Node components</a>
 1. Kubelet
    - K8S agent that runs on each node
    - makes sure container are running in PODs
@@ -55,7 +55,12 @@ This repositiory contains the study notes, practice code and commands that I gat
    - OCI : Open  Container Initiative <br>
        * imagespec : spec on how image should be build
        * runtimespec : spec on how container to be build
-         
+
+### <a name='k8sObjects'>Kubernetes Objects</a>
+
+#### <a name='pod'>Pod</a>
+
+#### <a name='replicaSet'> ReplicaSet </a>
 
 ### Commands
 #### 1. Getting list of existing pods. <br><br></b>
