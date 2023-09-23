@@ -85,5 +85,6 @@ This repositiory contains the study notes, practice code and commands that I gat
 #### 4. Edit running ReplicaSet
     kubectl edit rs <name_of_ReplicaSet>
     kubectl edit replicaset <name-of-replicaset>
+    --need to delete the running pods after updating the replicaset so new pods will be recreated.
 
   
