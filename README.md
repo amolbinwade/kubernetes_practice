@@ -82,5 +82,8 @@ This repositiory contains the study notes, practice code and commands that I gat
     Example: create -f client-pod.yaml
 [client-pod.yaml](https://github.com/amolbinwade/kubernetes_practice/blob/master/client-pod.yaml)
 
+#### 4. Edit running ReplicaSet
+    kubectl edit rs <name_of_ReplicaSet>
+    kubectl edit replicaset <name-of-replicaset>
 
   
