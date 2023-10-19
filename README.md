@@ -62,6 +62,8 @@ This repositiory contains the study notes, practice code and commands that I gat
 
 #### <a name='replicaSet'>B.2 ReplicaSet </a>
 
+#### <a name='deployment'>B.3 Deployment </a>
+
 ### <a name='commands'>C. Commands</a>
 #### 1. Getting list of existing pods. <br><br></b>
 > kubectl get pods
