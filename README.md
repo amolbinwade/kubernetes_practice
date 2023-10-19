@@ -12,6 +12,7 @@ This repositiory contains the study notes, practice code and commands that I gat
 - [ ] [B. Kubernetes objects](#k8sObjects)
   * [B.1 Pod](#pod)
   * [B.2 ReplicaSet](#replicaSet)
+  * [B.3 Deployment](#deployment)
 - [ ] [C. Commands](#commands)
 
 ### <a name='k8sComponents'>A. Kubernetes Components</a>
