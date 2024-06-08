@@ -59,6 +59,22 @@ This repositiory contains the study notes, practice code and commands that I gat
 ### <a name='k8sObjects'>B. Kubernetes Objects</a>
 
 #### <a name='pod'>B.1 Pod</a>
+#### Add Spring Boot liveness and readiness probes into Kubernetes POD
+
+```
+livenessProbe:
+      httpGet:
+         path: /actuator/health/liveness
+         port: 8080
+      initialDelaySeconds: 3
+      periodSeconds: 3
+readinessProbe:
+            # Readiness probe is used to check if this app is ready to serve traffic.
+       httpGet:
+          path: /actuator/health/readiness
+          port: 8080
+       initialDelaySeconds: 10
+```
 
 #### <a name='replicaSet'>B.2 ReplicaSet </a>
 
